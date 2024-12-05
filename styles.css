@@ -64,10 +64,6 @@ nav a:active {
   background-color: none;
   box-shadow: none;
 }
-nav a:visited {
-  background-color: none;
-  box-shadow: none;
-}
 nav .selected {
   text-decoration: underline;
   text-underline-offset: 0.25rem;
