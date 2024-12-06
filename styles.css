@@ -60,10 +60,6 @@ nav a:hover {
   background-color: hsla(0, 0%, 0%, 0.2);
   box-shadow: 0 0.05rem 0.4rem 0 hsla(0, 0%, 0%, 0.24);
 }
-nav a:active {
-  background-color: none;
-  box-shadow: none;
-}
 nav .selected {
   text-decoration: underline;
   text-underline-offset: 0.25rem;
@@ -191,10 +187,7 @@ footer img {
   section, footer > div {
     flex-direction: column;
   }
-  nav {
-    padding: 0.75rem 0rem;
-  }
   nav a {
-    padding: 0.75rem;
+    padding: .85rem 0.5rem;
   }
 }
