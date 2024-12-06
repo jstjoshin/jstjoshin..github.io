@@ -1,17 +1,17 @@
 body {
-    background-color: hsl(160, 43%, 99%);
-    color: hsl(24, 14%, 27%);
-    font-family: "Asap Condensed", Helvetica, sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
-    padding: 0rem;
-    margin: 0rem;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    letter-spacing: 0.01rem;
-    min-width: 15rem;
+  background-color: hsl(160, 43%, 99%);
+  color: hsl(24, 14%, 27%);
+  font-family: "Asap Condensed", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0rem;
+  margin: 0rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.01rem;
+  min-width: 15rem;
 }
 h1 {
   font-size: 2rem;
@@ -32,13 +32,11 @@ a {
   transition: 0.4s;
   text-decoration: none;
 }
-
 header img {
   height: 6rem;
   display: block;
   margin: 1.5rem auto;
 }
-
 nav {
   background-color: hsl(175, 56%, 33%);
   width: 100%;
@@ -59,18 +57,16 @@ nav a {
 }
 nav a:hover {
   background-color: hsla(0, 0%, 0%, 0.2);
-  box-shadow: 0 0.05rem 0.4rem 0 hsla(0, 0%, 0%, 0.24);
+  box-shadow: 0rem 0.05rem 0.4rem hsla(0, 0%, 0%, 0.24);
 }
 nav .selected {
   text-decoration: underline;
   text-underline-offset: 0.25rem;
 }
-
 main {
   flex-grow: 1;
   width: 100%;
 }
-
 section {
   display: flex;
   padding: 2rem;
@@ -97,7 +93,6 @@ section a:hover {
   font-weight: 400;
   transition: 0s;
 }
-
 .promotion {
   text-align: center;
   padding: 0rem;
@@ -144,10 +139,10 @@ section a:hover {
   transition: 0.5s;
   display: inline-block;
   width: 0rem;
-	height: 0.9rem;
-	border-radius: 0.6rem 0;
-	background-color: hsl(175, 56%, 33%);
-	transform: rotate(-120deg);
+  height: 0.9rem;
+  border-radius: 0.6rem 0rem;
+  background-color: hsl(175, 56%, 33%);
+  transform: rotate(-120deg);
 }
 .promotion a:hover span:after {
   opacity: 0.9;
@@ -155,7 +150,6 @@ section a:hover {
   margin-left: 0.35rem;
   transform: rotate(0deg);
 }
-
 footer {
   background-color: hsl(175, 56%, 33%);
   color: hsl(0, 0%, 100%);
