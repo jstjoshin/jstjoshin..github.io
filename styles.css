@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     letter-spacing: 0.01rem;
+    min-width: 15rem;
 }
 h1 {
   font-size: 2rem;
@@ -98,16 +99,9 @@ section a:hover {
 }
 
 .promotion {
-  width: 100%;
-}
-.promotion img {
-  height: 21rem;
-  border-radius: 0rem;
-}
-.promotion section {
   text-align: center;
   padding: 0rem;
-  max-width: 100%;
+  max-width: none;
 }
 .promotion article {
   display: grid;
@@ -115,6 +109,10 @@ section a:hover {
 .promotion article > * {
   grid-column-start: 1;
   grid-row-start: 1;
+}
+.promotion img {
+  height: 21rem;
+  border-radius: 0rem;
 }
 .promotion div {
   background-color: hsla(0, 0%, 0%, 0.5);
